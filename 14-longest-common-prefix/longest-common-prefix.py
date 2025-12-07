@@ -7,3 +7,5 @@ class Solution(object):
                 if prefix=="":
                     return ""
         return prefix
+object=Solution()
+print(object.longestCommonPrefix(["flower","flow","flight"]))
