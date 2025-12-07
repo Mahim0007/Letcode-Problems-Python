@@ -22,6 +22,10 @@ class Solution(object):
             else:
                 total=total+current_value
 
-            prev_value = current_value
+        prev_value = current_value
 
-        return total
+        return total   
+
+i = input("Enter a roman numeral: ")
+obj = Solution()
+print("The integer value is:", obj.romanToInt(i))
